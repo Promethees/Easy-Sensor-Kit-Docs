@@ -93,6 +93,19 @@ This document provides instruction on deploying a web interface that helps visua
 	<img src="/images/fileselection.png" width="600">
 </div>
 
+* ***CSV File Edit*** You may click on ***Edit*** button to modify the content of the respective CSV file. It comes in 2 modes:
+	- `Table`:
+
+	<div align="center">
+		<img src="/images/csvtableedit.png" width="600">
+	</div>
+
+	- `Raw Text`:
+
+	<div align="center">
+		<img src="/images/csvtextedit.png" width="600">
+	</div>
+
 * ***Data Display***:
 	- `Display Range` Modification in display range changes the displayed data and respective unit displayed on the plot. 
 	- `Split by Blanked` Seperate data points into 2 plots, ***Blanked*** and ***Non-Blanked***, which is set by value of column ['Blanked'] in the browsed csv.
