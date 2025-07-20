@@ -156,7 +156,7 @@ This document provides instruction on deploying a web interface that helps visua
 		<img src="/images/exportA.png" width="600">
 	</div>
 
-	- For `calibrate` mode, you can specify the corresponding regression algorithm to export standard line with coefficients and plot on the chart. 
+	- For `calibrate` mode, you can specify the corresponding regression algorithm to export standard line with coefficients and plot on the chart. The value in `Enter the threshold value for rSquared` let you decides the minimum value of rSquared allowed for meaningful regression (i.g, only regression whose rSquared is larger than this value is exported with coefficients, otherwise, the respective coefficients being exported will be denoted as `NONE` values)
 	<div align="center">
 		<img src="/images/exportC.png" width="600">
 	</div>
