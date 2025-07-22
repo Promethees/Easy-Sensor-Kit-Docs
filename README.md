@@ -61,7 +61,7 @@ This document provides instruction on deploying a web interface that helps visua
 * `Init prompt` Instruct you to select the correct started Directory for Directory Picker
 
 <div align="center">
-	<img src="/images/init-prompt.png" width="600">
+	<img src="/images/init-promp.png" width="600">
 </div>
 
 * `Directory` Browse host's directories to select CSV files.
