@@ -58,42 +58,42 @@
 This document provides instruction on deploying a web interface that helps visualize data recorded by a handy colorimeter, inspired by [IORodeo Open Colorimeter](https://iorodeo.com/products/open-colorimeter) 
 
 ## Features
-* ***Init prompt*** Instruct you to select the correct started Directory for Directory Picker
+* `Init prompt` Instruct you to select the correct started Directory for Directory Picker
 
 <div align="center">
 	<img src="/images/init-prompt.png" width="600">
 </div>
 
-* ***Directory*** Browse host's directories to select CSV files.
+* `Directory` Browse host's directories to select CSV files.
 
 <div align="center">
 	<img src="/images/browse.png" width="600">
 </div>
 
-* ***Set measurement Modes*** The Applicatiob has 3 modes: `kinetics`, `point`, `calibrate`
+* `Set measurement Modes` The Applicatiob has 3 modes: `kinetics`, `point`, `calibrate`
 
-* ***Select type of Calibration*** You can specify which calibration you're calculating for, either `kinetics` or `point`
+* `Select type of Calibration` You can specify which calibration you're calculating for, either `kinetics` or `point`
 
-* ***Log HID*** Get data being sent from the ***PyBadge*** colorimeter. Specifiying location and file pattern name in `--base-dir` and `--base-name`. The logged file is saved at: `\log\script_logs.txt`. Disabled in **calibrate** mode
+* `Log HID` Get data being sent from the ***PyBadge*** colorimeter. Specifiying location and file pattern name in `--base-dir` and `--base-name`. The logged file is saved at: `\log\script_logs.txt`. Disabled in **calibrate** mode
 	- ***Note***: Due to security reason, the API we used for ***Select Directory*** only allows you correctly browse and select immediate Child/Parent directories at a time. You might modify to get the correct path in the interactive text box.
 
 <div align="center">
 	<img src="/images/logHID.png" width="600">
 </div>
 
-* ***Standard lines*** Choose standard line you'd like to derive concentration from measurements. Disabled in `calibrate` mode. You can read detailed description in each standard line json to understand the calculation methods.
+* `Standard lines` Choose standard line you'd like to derive concentration from measurements. Disabled in `calibrate` mode. You can read detailed description in each standard line json to understand the calculation methods.
 
 <div align="center">
 	<img src="/images/standardJSON.png" width="600">
 </div>
 
-* ***File Selection*** When a directory with csv files is browsed, the list of selectable csv files are displayed under ***File Selection*** table. Currently, the feature only supports display data from ***ONE*** file at a time. Click `Select` to visualize the chosen csv, `Deselect` to turn the visualization off.
+* `File Selection` When a directory with csv files is browsed, the list of selectable csv files are displayed under ***File Selection*** table. Currently, the feature only supports display data from ***ONE*** file at a time. Click `Select` to visualize the chosen csv, `Deselect` to turn the visualization off.
 
 <div align="center">
 	<img src="/images/fileselection.png" width="600">
 </div>
 
-* ***CSV File Edit*** You may click on ***Edit*** button to modify the content of the respective CSV file. It comes in 2 modes:
+* `CSV File Edit` You may click on ***Edit*** button to modify the content of the respective CSV file. It comes in 2 modes:
 	- `Table`:
 
 	<div align="center">
@@ -106,7 +106,7 @@ This document provides instruction on deploying a web interface that helps visua
 		<img src="/images/csvtextedit.png" width="600">
 	</div>
 
-* ***Data Display***:
+* `Data Display`:
 	- `Display Range` Modification in display range changes the displayed data and respective unit displayed on the plot. 
 	- `Split by Blanked` Seperate data points into 2 plots, ***Blanked*** and ***Non-Blanked***, which is set by value of column ['Blanked'] in the browsed csv.
 
@@ -162,6 +162,12 @@ This document provides instruction on deploying a web interface that helps visua
 	</div>
 
 	- ***Note***: Due to security reason, the API we used for ***Select Directory*** only allows you correctly browse and select immediate Child/Parent directories at a time. You might modify to get the correct path in the interactive text box.
+
+* `Shutting server`
+	- To properly end your using session, you have to click to the red `Shutting Server` on the top right side of the interface. 
+	<div align="center">
+		<img src="/images/shutserver.png" width="600">
+	</div>
 	
 ## Notes
 
