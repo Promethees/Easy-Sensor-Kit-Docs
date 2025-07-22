@@ -47,7 +47,7 @@
 		+ Email [Minh Thong](mailto:tqmthong@gmail.com) for Token to authorize your installation
 		+ Paste the given token here <img src="/images/github_token.PNG" width="200"> to Download 
 		+ After the installation, you can use `EasySensor Kit` icon on the Desktop to start the app
-		+ For `Uninstallation`, navigate to the local fodler in which you save the Program Files, use `Uninstall.exe` to uninstall
+		+ For `Uninstallation`, navigate to the local fodler in which you save the Program Files (e.g `C:\Program Files\EasySensor Kit`), use `Uninstall.exe` to uninstall
 		
 	- Using batch scripts:
 		+ Right click on `startwindow-1-git.bat`, Select `Run as Administrator`. Click YES to install required dependencies.
