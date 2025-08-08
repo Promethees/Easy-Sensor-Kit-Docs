@@ -1,5 +1,36 @@
 # Easy Sensor Kit Web application
 
+## Hardware Specification
+* Individual components:
+	- [IORodeo Open Colorimeter](https://iorodeo.com/products/open-colorimeter)
+
+	<img src="/images/iorodeo.png" width="600">
+
+	- USB A to USB Micro-B cable connector
+
+	<img src="/images/cable.png" width="600">
+
+	- A removable electronic cover (you need to remove the 2 below pins of the Light Sensor in order to get it fit) which covers cuvette holder to protect wires.
+
+	<img src="/images/cover.png" width="600">
+
+	- Cuvette to be placed inside the cuvette holder with solution being read.
+
+	<img src="/images/lid.png" width="600">
+
+	- LED board
+
+	<img src="/images/led.png" width="600">
+
+	- TSL2591 Light Sensor
+
+	<img src="/images/sensor.png" width="600">
+
+* Assemble:
+	- Connect USB Micro-B port to the Colorimeter processing board [Adafruit Pybadge](https://learn.adafruit.com/adafruit-pybadge/overview)
+
+	<img src="/images/connect.png" width="600">
+
 ## Installation
 * On Mac:
 	- Using installer:
