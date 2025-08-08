@@ -41,7 +41,9 @@
 * Assemble:
 	- Connect USB Micro-B port to the Colorimeter processing board [Adafruit Pybadge](https://learn.adafruit.com/adafruit-pybadge/overview)
 
-	<img src="/images/connect.png" width="600">
+	<div align="center">
+		<img src="/images/connect.png" width="600">
+	</div>
 
 ## Installation
 * On Mac:
