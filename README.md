@@ -74,7 +74,7 @@ This document provides instruction on deploying a web interface that helps visua
 
 * `Select type of Calibration` You can specify which calibration you're calculating for, either `kinetics` or `point`
 
-* `Log HID` Get data being sent from the ***PyBadge*** colorimeter. Specifiying location and file pattern name in `--base-dir` and `--base-name`. The logged file is saved at: `\log\script_logs.txt`. Disabled in **calibrate** mode
+* `Reading colorimetric data` Get data being sent from the ***PyBadge*** colorimeter. Specifiying location and file pattern name in `--base-dir` and `--base-name`. You can also configure Timeout and Interval between samplings for the measuring session. The logged file is saved at: `\log\script_logs.txt`. Disabled in **calibrate** mode
 	- ***Note***: Due to security reason, the API we used for ***Select Directory*** only allows you correctly browse and select immediate Child/Parent directories at a time. You might modify to get the correct path in the interactive text box.
 
 <div align="center">
@@ -93,7 +93,7 @@ This document provides instruction on deploying a web interface that helps visua
 	<img src="/images/fileselection.png" width="600">
 </div>
 
-* `CSV File Edit` You may click on ***Edit*** button to modify the content of the respective CSV file. It comes in 2 modes:
+* `File Edit` You may click on ***Edit*** button to modify the content of the respective CSV/JSON file. It comes in 2 modes:
 	- `Table`:
 
 	<div align="center">
@@ -106,6 +106,11 @@ This document provides instruction on deploying a web interface that helps visua
 		<img src="/images/csvtextedit.png" width="600">
 	</div>
 
+
+	- `JSON`:
+	<div align="center">
+		<img src="/images/jsonedit.png" width="600">
+	</div>
 * `Data Display`:
 	- `Display Range` Modification in display range changes the displayed data and respective unit displayed on the plot. 
 	- `Split by Blanked` Seperate data points into 2 plots, ***Blanked*** and ***Non-Blanked***, which is set by value of column ['Blanked'] in the browsed csv.
