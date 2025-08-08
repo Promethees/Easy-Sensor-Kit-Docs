@@ -126,6 +126,18 @@ This document provides instruction on deploying a web interface that helps visua
 	<img src="/images/logHID.png" width="600">
 </div>
 
+	- ***PyBadge*** screen after ***Start reading*** is requested:
+
+<div align="center">
+	<img src="/images/connected.png" width="600">
+</div>
+
+	- ***PyBadge*** screen when measurements are being sent:
+
+<div align="center">
+	<img src="/images/send.png" width="600">
+</div>
+
 * `Standard curves` Choose standard curve you'd like to derive concentration from measurements. Disabled in `calibrate` mode. You can read detailed description in each standard curve json to understand the calculation methods.
 
 <div align="center">
