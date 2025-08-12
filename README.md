@@ -126,13 +126,13 @@ This document provides instruction on deploying a web interface that helps visua
 	<img src="/images/logHID.png" width="600">
 </div>
 
-	- ***PyBadge*** screen after ***Start reading*** is requested:
+* ***PyBadge*** screen after ***Start reading*** is requested:
 
 <div align="center">
 	<img src="/images/connected.png" width="600">
 </div>
 
-	- ***PyBadge*** screen when measurements are being sent:
+* ***PyBadge*** screen when measurements are being sent:
 
 <div align="center">
 	<img src="/images/send.png" width="600">
