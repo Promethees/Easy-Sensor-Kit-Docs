@@ -123,7 +123,7 @@ This document provides instruction on deploying a web interface that helps visua
 	- ***Note***: Due to security reason, the API we used for ***Select Directory*** only allows you correctly browse and select immediate Child/Parent directories at a time. You might modify to get the correct path in the interactive text box.
 
 <div align="center">
-	<img src="/images/logHID.png" width="600">
+	<img src="/images/readData.png" width="600">
 </div>
 
 * ***PyBadge*** screen after ***Start reading*** is requested:
